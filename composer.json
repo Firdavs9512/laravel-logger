@@ -1,0 +1,29 @@
+{
+  "name": "firdavs9512/laravel-logger",
+  "description": "Laravel Model change logger",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Firdavs9512\\LaravelLogger\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Firdavs",
+      "email": "firdavsreadmi8@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Firdavs9512\\LaravelLogger\\LoggerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "beta",
+  "require": {}
+}
